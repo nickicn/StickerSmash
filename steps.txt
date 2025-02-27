@@ -3,8 +3,9 @@ git config --global user.email nicolelopes0008@gmail.com
 
 npx create-expo-app@latest StickerSmash
 
-cd StickerSmash
-
 npm run reset-project
 
+->
+
+cd StickerSmash
 npx expo start --localhost --android
