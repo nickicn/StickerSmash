@@ -10,3 +10,5 @@ npm run reset-project
 cd StickerSmash
 npm i
 npx expo start --localhost --android
+
+CTRL + ALT + F => Alinha o código
