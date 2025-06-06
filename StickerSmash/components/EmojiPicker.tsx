@@ -15,7 +15,7 @@ export default function EmojiPicker({ isVisible, children, onClose }: Props) {
             <View style={styles.titleContainer}>
                 <Text style={styles.title}>Escolha uma figurinha</Text>
                 <Pressable onPress={onClose}>
-                    <MaterialIcons name='close' color='#fff' size={22} />
+                    <MaterialIcons name='close' color='#ff4375' size={22} />
                 </Pressable>
             </View>
             {children}
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     modalContent: {
         height: '25%',
         width: '100%',
-        backgroundColor: '#25292e',
+        backgroundColor: '#d3d3d3',
         borderTopRightRadius: 18,
         borderTopLeftRadius: 18,
         position: 'absolute',
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     },
     titleContainer: {
         height: '16%',
-        backgroundColor: '#464c55',
+        backgroundColor: '#d3d3d3',
         borderTopRightRadius: 10,
         borderTopLeftRadius: 10,
         paddingHorizontal: 20,
@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between',
     },
     title: {
-        color: '#fff',
-        fontSize: 16,
+        color: '#ff4375',
+        fontSize: 18,
     }
 })

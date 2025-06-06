@@ -14,7 +14,7 @@ import * as MediaLibrary from 'expo-media-library';
 import { captureRef } from 'react-native-view-shot';
 import domtoimage from 'dom-to-image'
 
-const PlaceholderImage = require("@/assets/images/background-image.png");
+const PlaceholderImage = require("@/assets/images/background-image.jpg");
 
 export default function Index() {
   const [selectedImage, setSelectedImage] = useState<string | undefined>(undefined);
@@ -132,7 +132,7 @@ export default function Index() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#25292e",
+    backgroundColor: "#edede9",
     alignItems: "center",
   },
   imageContainer: {
